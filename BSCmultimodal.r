@@ -1,4 +1,4 @@
-###--- BSCmultimodal Xu Yafei 
+###--- BSCmultimodal by Xu Yafei HU Berlin
 
 library(rgl)
 ng=33 # number of grid
