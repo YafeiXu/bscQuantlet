@@ -19,8 +19,6 @@ persp3d(x,y, outer931,
 theta =35, phi = 35,
 col="blue",
 
-xlab = "X", ylab = "Y", zlab = "Z",front="fill",back="line",alpha=0.9,
+xlab = "x1", ylab = "x2", zlab = "f(x1,x2)",front="fill",back="line",alpha=0.9,
 ticktype = "detailed",aspect=c(1,1,1.3))
-#grid3d(c("x", "y+", "z"),alpha=0.7)
-axes3d(yat=c(33.0,47.2,61.5),xat=c(4780.9,9288.6,13796.4))
 box3d()
