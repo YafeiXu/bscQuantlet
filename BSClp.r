@@ -3,8 +3,8 @@
 library(rgl)
 
 ng=33 # number of grid
-x=seq(0,200,length.out=ng)  # grid elements
-y=seq(0,200,length.out=ng)
+x=seq(0,25,length.out=ng)  # grid elements
+y=seq(0,25,length.out=ng)
 ###  
 fhat=function(x,y){
 v=numeric()
@@ -24,4 +24,6 @@ ticktype = "detailed",aspect=c(1,1,1.3))
 
 box3d() 
 
-
+planes3d(a=3,b=4,c=0,d=-60,col="green")
+points3d(x=0, y = 15, z =60,col=2,size=155)
+###
