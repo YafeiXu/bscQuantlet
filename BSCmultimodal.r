@@ -54,6 +54,7 @@ points3d(x=3.946424, y =2.223286, z =-0.136698  ,col="blue",size=155)
 
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(2.1,2.1), fkt, lower=c(2,2), upper=c(3,3),
@@ -69,6 +70,7 @@ control=list(maximize = TRUE),
 
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(.5,4), fkt, lower=c(0,3), upper=c(1,5),
@@ -82,6 +84,7 @@ control=list(maximize = TRUE),
 #  L-BFGS-B 0.7679166 3.977475 0.1180093      6      6    NA        0 TRUE TRUE      0
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(3.5,4.1), fkt, lower=c(3.4,3.5), upper=c(4.5,4.5),
@@ -96,6 +99,7 @@ control=list(maximize = TRUE),
 
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(.5,.5), fkt, lower=c(.5,0), upper=c(1.5,1),
@@ -109,6 +113,7 @@ control=list(maximize = TRUE),
 #  L-BFGS-B 0.8721164 0.7346915 0.07819546      7      7    NA        0 TRUE TRUE      0
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(4,.5), fkt, lower=c(3,0), upper=c(5,1),
@@ -123,6 +128,7 @@ control=list(maximize = TRUE),
 
 
 ################
+library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
 optimx(c(.5,2.1), fkt, lower=c(0,1), upper=c(2,3),
