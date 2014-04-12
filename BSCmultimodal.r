@@ -49,11 +49,8 @@ points3d(x=2.44829, y =0.6115371, z =-0.03794587   ,col="blue",size=155)
 # 3.946424 2.223286 -0.136698
 points3d(x=3.946424, y =2.223286, z =-0.136698  ,col="blue",size=155)
 
-### optimization 5 maxima and 4 minima 
+### optimization for 5 maxima and 4 minima 
 
-
-
-################
 library(optimx)
 fkt <- function (x){0.03*sin(x[1])*sin(x[2])-0.05*sin(2*x[1])*sin(x[2])+0.01*sin(x[1])*sin(2*x[2])+0.09*sin(2*x[1])*sin(2*x[2])}
 
