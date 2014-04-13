@@ -15,9 +15,10 @@ outer931=outer(x,y,fhat)
 
 ### 
 open3d()
+par3d(cex=3) # 扩大字体大小
 persp3d(x,y, outer931,
 theta =35, phi = 35,
-col="green",
+col="blue",
 
 xlab = "x1", ylab = "x2", zlab = "f(x1,x2)",front="fill",back="line",alpha=0.9,
 ticktype = "detailed",aspect=c(1,1,1.3))
@@ -38,16 +39,16 @@ points3d(x=0.8721164, y = 0.7346915, z =0.07819546 ,col=2,size=155)
 points3d(x=3.834899, y = 0.6115384, z =0.03794587  ,col=2,size=155)
 
 # 0.7679163 2.305711 -0.1180093  
-points3d(x=0.7679163, y =2.305711, z =-0.1180093  ,col="blue",size=155)
+points3d(x=0.7679163, y =2.305711, z =-0.1180093  ,col="green",size=155)
 
 # 2.336761 4.059899 -0.136698
-points3d(x=2.336761, y =4.059899, z =-0.136698  ,col="blue",size=155)
+points3d(x=2.336761, y =4.059899, z =-0.136698  ,col="green",size=155)
 
 # 2.44829 0.6115371 -0.03794587 
-points3d(x=2.44829, y =0.6115371, z =-0.03794587   ,col="blue",size=155)
+points3d(x=2.44829, y =0.6115371, z =-0.03794587   ,col="green",size=155)
 
 # 3.946424 2.223286 -0.136698
-points3d(x=3.946424, y =2.223286, z =-0.136698  ,col="blue",size=155)
+points3d(x=3.946424, y =2.223286, z =-0.136698  ,col="green",size=155)
 
 ### optimization for 5 maxima and 4 minima 
 

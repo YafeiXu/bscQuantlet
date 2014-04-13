@@ -16,6 +16,7 @@ outer931=outer(x,y,fhat)
 
 ###  
 open3d()
+par3d(cex=3) # 扩大字体大小
 persp3d(x,y, outer931,
 theta =35+180, phi = 35+30,
 col="blue",

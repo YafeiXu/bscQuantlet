@@ -14,4 +14,5 @@ return(v)
 outer931=outer(x,y,fhat)
 
 ### 
+
 contour(x,y, outer931,xlab = "x1", ylab = "x2", nlevels=12) 
